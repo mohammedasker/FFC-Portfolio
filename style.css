@@ -1,0 +1,95 @@
+body {
+	font: 15px/1.5 sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.main {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav {
+	background-color: #ff3333;
+	color: white;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+}
+
+nav ul {
+	text-decoration: none;
+	text-transform: none;
+	list-style: none;
+	float: right;
+	padding-top: 12px;
+	display: inline-block;
+}
+
+nav li {
+	float: left;
+	display: inline;
+	padding-top: 50px;
+	padding: 0 20px 0 20px;
+}
+
+#welcome-section {
+	color: black;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+#projects {
+	color: black;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+img {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+#contacts {
+	color: black;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+a {
+	text-transform: none;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+footer p{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+@media (max-width: 768px){
+	p {font-size: 20px;}
+	#welcome-section {margin-top: 130px;}
+	footer p{font-size: 14px;}
+}
+
